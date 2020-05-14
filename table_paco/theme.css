@@ -1,0 +1,62 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 30px;
+}
+
+.container {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+@media screen and (min-width: 720px) {
+    .container {
+        width: 80%;
+}}
+
+@media screen and (min-width: 1280px) {
+    .container {
+        width: 60%;
+}}
+
+table {
+    background-color: lightgray;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: 1px solid grey;
+    padding: 15px;
+    text-align: left;
+}
+
+th,
+td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 100%;    
+}
+
+td:nth-child(4) {
+    padding: 5px 15px;
+}
+
+table img {
+    height: 25px;
+}
+
+tr:nth-child(even) {
+    background-color: #e4e4e4;
+}
+    
+tr:hover {
+    background-color: lightsalmon;
+}
+
+a:hover {
+    opacity: 50%;
+}

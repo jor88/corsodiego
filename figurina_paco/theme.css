@@ -1,0 +1,57 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    background-color: lightgray;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+}
+
+.contenitore {
+    position: relative;
+    background-color: red;
+    display: inline-block;
+    min-width: 340px;
+    min-height: 800px;
+    margin: 25px;
+}
+
+#box1 {
+    position: absolute;
+    display: inline-block;
+    right: 25px;
+    bottom: 50px;
+}
+
+#box3 {
+    display: inline-block;
+    background-color: lightcyan;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    text-align: center;
+    min-width: 310px;
+    border: 2px solid black
+}
+
+#box4 {
+    min-width: 290px;
+    background-color: cyan;
+    display: inline-block;
+    position: absolute;
+    border: 2px solid black;
+    top:22px; left: 22px;
+}
+
+#box2 {
+    display: inline-block;
+    background-color: white;
+    position: absolute;
+    left: 35px;
+    bottom: 10px;
+    min-width: 75px;
+    min-height: 100px;
+    text-align: center;
+    z-index: 1;
+    border: 2px solid black;
+}
